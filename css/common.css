@@ -1,0 +1,22 @@
+#header {
+    display: block;
+    width: auto;
+    background: #2554c7;
+    height: 80px;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 30px;
+    margin-top: 25px;
+    color: white;
+    display: inline-block;
+}
+
+#footer {
+    display: block;
+}
+
+#footer li {
+    float: left;
+}
