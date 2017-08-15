@@ -1,0 +1,13 @@
+{
+  "name": "ticket-for-wx",
+  "version": "1.0.0",
+  "description": "yarnConfig",
+  "main": "index.js",
+  "repository": "git@github.com:caodooGMT/ticket-for-wx.git",
+  "author": "silencegmt <496555782@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
