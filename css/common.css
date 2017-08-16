@@ -1,3 +1,7 @@
+html {
+    max-width: 800px;
+}
+
 #header {
     display: block;
     width: auto;
@@ -15,8 +19,10 @@
 
 #footer {
     display: block;
+    text-align: center;
 }
 
-#footer li {
-    float: left;
+#footer-navbar {
+    float: none;
+    width: inherit;
 }
