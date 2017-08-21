@@ -1,13 +1,13 @@
-#index-content {
+#main-content {
     text-align: center;
     height: 300px;
     width: auto;
 }
 
-#index-content h1 {
+#main-content h1 {
     font-size: 14px;
 }
 
-#index-content h2 {
+#main-content h2 {
     font-size: 12px;
 }

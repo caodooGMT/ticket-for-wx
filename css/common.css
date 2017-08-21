@@ -27,7 +27,7 @@ html {
     height: 50px;
 }
 
-.footer-nav-button {
+.navbar li {
     float: left;
     width: 60px;
     display: inline-block;
@@ -42,6 +42,7 @@ html {
 .footer-navbar {
     margin: 0;
 }
+
 
 
 

@@ -9,3 +9,9 @@ $(document).ready(function () {
         $("#footer").html(data);
     });
 });
+
+$(document).ready(function () {
+    $.get("../components/main-content.html", function (data) {
+        $("#main-content").html(data);
+    });
+});
