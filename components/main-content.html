@@ -1,4 +1,47 @@
 <main-content>
     <h1>目前仅开通阳泉-北京定制专线</h1>
     <h2>其余路线将陆续开通，敬请期待</h2>
+    <div class="main-content-date-section">
+        <div class="date-section-text">
+            <p>出发</p>
+            <p>日期</p>
+        </div>
+        <div class="date-section-selector">
+            <div class='input-group date' id='main-content-date-picker'>
+                <input type='text' class="form-control"/>
+                <span class="input-group-addon">
+                    <span class="fa fa-calendar">
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <input type="button" class="main-content-submit" value="查询">
+    <div class="container">
+        <div class="col-sm-6" style="height:130px;">
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker8'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                    <span class="fa fa-calendar">
+                    </span>
+                </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker8').datetimepicker({
+                    icons: {
+                        time: "fa fa-clock-o",
+                        date: "fa fa-calendar",
+                        up: "fa fa-arrow-up",
+                        down: "fa fa-arrow-down"
+                    },
+                    format : 'L',
+                    locale : 'zh-cn'
+                });
+            });
+        </script>
+    </div>
 </main-content>

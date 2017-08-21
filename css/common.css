@@ -1,6 +1,6 @@
 html {
     min-width: 200px;
-    overflow-x: scroll;
+    overflow: scroll;
 }
 
 #header {
@@ -27,7 +27,7 @@ html {
     height: 50px;
 }
 
-.navbar li {
+#footer .navbar li {
     float: left;
     width: 60px;
     display: inline-block;
