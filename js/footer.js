@@ -1,7 +1,7 @@
 function changeActive(e, target) {
     e.preventDefault();
-    $('.nav li').removeClass('active');
-    $(target).closest('li').addClass('active');
+    $('.footer-nav-ul li').removeClass('nav-active');
+    $(target).closest('li').addClass('nav-active');
 }
 
 function openFaqPage(e, target) {
