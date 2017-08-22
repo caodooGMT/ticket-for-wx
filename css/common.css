@@ -9,6 +9,7 @@ html {
     background: #2554c7;
     height: 40px;
     text-align: center;
+    z-index: -1;
 }
 
 #header h1 {
