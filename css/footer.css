@@ -4,23 +4,33 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 50px;
-    border-top: solid 1px #000000;
+    height: 40px;
+    border-top: solid 1px #d8d2d3;
 }
 
-#footer .footer-nav-bar li {
-    float: left;
+.footer-nav-bar li {
     width: 60px;
     display: inline-block;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.footer-nav-bar li a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .footer-nav-bar {
     margin: 0;
+    height: 40px;
 }
 
 .footer-nav-ul {
     width: 200px;
-    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    height: 40px;
 }
 
 .nav-active {
