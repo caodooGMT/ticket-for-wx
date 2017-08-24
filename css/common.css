@@ -7,6 +7,11 @@ html {
     background-size: cover;
 }
 
+body {
+    background: #f1f1f1;
+    margin: 0;
+}
+
 #header {
     display: block;
     width: 100%;
@@ -58,8 +63,56 @@ html {
     background-color: #b6b6b4;
 }
 
+.user-page-top-banner {
+    text-align: center;
+    height: 3rem;
+    background: #2554c7;
+    line-height: 3rem;
+    color: white;
+}
 
+.back-arrow {
+    display: inline-block;
+    position: fixed;
+    left: 1rem;
+}
 
+.user-page-top-title {
+    display: inline-block;
+}
 
+.user-page-top-link {
+    display: inline-block;
+    position: fixed;
+    right: 1rem;
+}
 
+.user-cellphone-input {
+    margin: 1rem 5%;
+    width: 90%;
+    height: 2rem;
+}
 
+.user-pwd-input {
+    margin: 1rem 5%;
+    width: 90%;
+    height: 2rem;
+}
+
+.button-container {
+    width: 100%;
+    text-align: center;
+}
+
+.user-page-submit {
+    margin: 0 auto;
+    height: 2rem;
+    width: 60%;
+}
+
+.user-page-bottom-link {
+    position: fixed;
+    right: 1rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
