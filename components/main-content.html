@@ -5,23 +5,17 @@
         <div class="date-section-text">
             <p>出发日期：</p>
         </div>
-        <div class="container" style="padding: 0; width: 200px">
-            <div class="col-sm-6">
-                <div class="form-group">
-                    <div class='input-group date' id='datetimepicker9'>
-                        <input type='text' class="form-control"/>
-                        <span class="input-group-addon">
+        <div class='input-group date date-section-selector' id='datetimepicker9'>
+            <input type='text' class="form-control"/>
+            <span class="input-group-addon">
                     <span class="glyphicon glyphicon-calendar">
                     </span>
                 </span>
-                    </div>
-                </div>
-            </div>
             <script type="text/javascript">
                 $(function () {
                     $('#datetimepicker9').datetimepicker({
-                        format : 'L',
-                        locale : 'zh-cn'
+                        format: 'L',
+                        locale: 'zh-cn'
                     });
                 });
             </script>

@@ -9,4 +9,3 @@ $(document).ready(function () {
         $("#header").html(data);
     });
 });
-
