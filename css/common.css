@@ -87,6 +87,11 @@ body {
     right: 1rem;
 }
 
+.user-page-top-link a {
+    text-decoration: none;
+    color: white;
+}
+
 .user-cellphone-input {
     margin: 1rem 5%;
     width: 90%;
@@ -105,7 +110,7 @@ body {
 }
 
 .user-page-submit {
-    margin: 0 auto;
+    margin: 1rem auto;
     height: 2rem;
     width: 60%;
 }
@@ -115,4 +120,30 @@ body {
     right: 1rem;
     margin-top: 1rem;
     text-decoration: none;
+}
+
+.certification-code-container {
+    margin: 0.7rem 5%;
+    width: 90%;
+    position: relative;
+    height: 2rem;
+}
+
+.certification-code-input {
+    width: 50%;
+    height: 100%;
+    border: none;
+    padding-left: 2px;
+}
+
+.get-certification-code {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.user-log-in-hint {
+    text-align: center;
+    margin-top: -0.5rem;
 }

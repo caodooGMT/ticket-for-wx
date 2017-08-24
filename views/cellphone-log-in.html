@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>定制专线</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <title>手机验证登录</title>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../js/common.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
 </head>
 <body>
-
+<div class="user-page-top-banner">
+    <div class="back-arrow">后退</div>
+    <div class="user-page-top-title">手机验证登录</div>
+    <div class="user-page-top-link">
+        <a href="log-in.html">密码登录</a>
+    </div>
+</div>
+<input class="user-cellphone-input" placeholder="手机号">
+<div class="certification-code-container">
+    <input class="certification-code-input" placeholder="输入手机验证码">
+    <input class="get-certification-code" type="button" value="获取验证码">
+</div>
+<div class="button-container">
+    <input class="user-page-submit" type="button" value="登录">
+</div>
+<div class="user-log-in-hint">登录后可至个人页面设置密码</div>
 </body>
 </html>
