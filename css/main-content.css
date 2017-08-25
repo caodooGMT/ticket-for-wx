@@ -1,10 +1,9 @@
 #main-content {
     text-align: center;
     width: auto;
-    margin-top: 5rem;
-    padding-top: 1.5rem;
     display: block;
-    margin-bottom: 4rem;
+    position: fixed;
+    top: 5rem;
 }
 
 #main-content h1 {
