@@ -2,8 +2,8 @@
     text-align: center;
     width: auto;
     display: block;
-    position: fixed;
-    top: 5rem;
+    margin-top: 5rem;
+    overflow-y: scroll;
 }
 
 #main-content h1 {
