@@ -1,7 +1,33 @@
 .user-page-functions-container {
     list-style-type: none;
+    padding: 0;
+    background: #ffffff;
+    margin: 0;
 }
 
 .user-page-functions-container li {
     text-align: left;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    height: 5rem;
+    padding-left: 2rem;
+    border-bottom: 1px solid #b6b6b4;
+}
+
+.user-main-top-banner {
+    font-size: 2.5rem;
+    background: #82caff;
+    padding: 1.5rem 0;
+    color: #ffffff;
+}
+
+.user-log-out {
+    width: 60%;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    background: #82caff;
+    color: #ffffff;
+    border: none;
 }
