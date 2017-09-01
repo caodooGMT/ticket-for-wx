@@ -37,6 +37,8 @@ body {
     width: 100%;
     height: 4rem;
     border-top: solid 1px #d8d2d3;
+    background: #ffffff;
+    z-index: 999;
 }
 
 .footer-nav-li {
@@ -147,4 +149,10 @@ body {
 .user-log-in-hint {
     text-align: center;
     margin-top: -0.5rem;
+}
+
+.foot-sit {
+    height: 6rem;
+    display: block;
+    width: 100%;
 }
