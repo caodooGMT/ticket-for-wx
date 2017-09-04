@@ -1,23 +1,23 @@
-function changeActive(e, target) {
+function changeFooterActive(e, target) {
     e.preventDefault();
-    $('.footer-nav-ul li').removeClass('footer-nav-active');
-    $(target).closest('li').addClass('footer-nav-active');
+    $('.footer-nav-ul li').removeClass('custom-nav-active');
+    $(target).closest('li').addClass('custom-nav-active');
 }
 
 function openFaqPage(e, target) {
     $('#main-content').empty();
     $('#main-content').load('../components/faq-content.html');
-    changeActive(e, target);
+    changeFooterActive(e, target);
 }
 
 function openMainPage(e, target) {
     $('#main-content').empty();
     $('#main-content').load('../components/main-content.html');
-    changeActive(e, target);
+    changeFooterActive(e, target);
 }
 
 function openUserPage(e, target) {
     $('#main-content').empty();
     $('#main-content').load('../components/user-main-content.html');
-    changeActive(e, target);
+    changeFooterActive(e, target);
 }
