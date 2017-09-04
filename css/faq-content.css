@@ -1,0 +1,8 @@
+.faq-page-content {
+    text-align: center;
+    width: auto;
+    display: block;
+    margin-top: 5rem;
+    overflow-y: scroll;
+    height: 100%;
+}
