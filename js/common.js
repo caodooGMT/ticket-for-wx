@@ -9,3 +9,8 @@ $(document).ready(function () {
         $("#header").html(data);
     });
 });
+
+function backToPrevious() {
+    window.history.go(-1);
+    return false;
+}

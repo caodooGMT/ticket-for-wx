@@ -69,7 +69,7 @@ body {
 .user-page-top-banner {
     text-align: center;
     height: 3rem;
-    background: #2554c7;
+    background: #a0cfec;
     line-height: 3rem;
     color: white;
 }
@@ -123,6 +123,7 @@ body {
     right: 1rem;
     margin-top: 1rem;
     text-decoration: none;
+    color: #6d7b8d;
 }
 
 .certification-code-container {
