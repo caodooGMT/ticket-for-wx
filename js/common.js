@@ -14,3 +14,10 @@ function backToPrevious() {
     window.history.go(-1);
     return false;
 }
+
+function openFaqDetail(e) {
+    var targetId = e.target.id;
+    var myLink = "../components/" + targetId + ".html";
+    $('#main-content').empty();
+    $('#main-content').load(myLink);
+}
