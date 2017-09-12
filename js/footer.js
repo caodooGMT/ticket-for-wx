@@ -6,7 +6,7 @@ function changeFooterActive(e, target) {
 
 function openFaqPage(e, target) {
     $('#main-content').empty();
-    $('#main-content').load('../components/faq-content.html');
+    $('#main-content').load('../components/faq-page-index.html');
     changeFooterActive(e, target);
 }
 

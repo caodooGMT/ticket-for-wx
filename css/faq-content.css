@@ -1,0 +1,11 @@
+.faq-detail-top-banner {
+    text-align: center;
+    height: 3rem;
+    background: #a0cfec;
+    line-height: 3rem;
+    color: white;
+}
+
+#faq-detail-top-title {
+    display: inline-block;
+}
