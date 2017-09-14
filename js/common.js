@@ -17,7 +17,21 @@ function backToPrevious() {
 
 function openFaqDetail(e) {
     var targetId = e.target.id;
+    var targetText = e.target.innerHTML;
+    console.log(targetText);
     var myLink = "../statics/" + targetId + ".html";
+    $('#faq-detail-page-header-title').html(targetText);
+    $('#faq-detail-page-header').show();
+    $('#original-header').hide();
     $('#main-content').empty();
     $('#main-content').load(myLink);
+}
+
+function backToFaqMain() {
+    $('.footer-nav-ul li').removeClass('custom-nav-active');
+    $('#footer-nav-li-to-faq').addClass('custom-nav-active');
+    $('#faq-detail-page-header').hide();
+    $('#original-header').show();
+    $('#main-content').empty();
+    $('#main-content').load('../components/faq-page-index.html');
 }

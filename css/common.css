@@ -82,3 +82,11 @@ body {
     display: block;
     width: 100%;
 }
+
+#original-header {
+    display: block;
+}
+
+#faq-detail-page-header {
+    display: none;
+}

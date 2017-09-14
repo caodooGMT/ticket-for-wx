@@ -1,11 +1,16 @@
-.faq-detail-top-banner {
-    text-align: center;
-    height: 3rem;
-    background: #a0cfec;
+.faq-detail-text p {
+    text-align: left;
+    font-size: 2rem;
     line-height: 3rem;
-    color: white;
 }
 
-#faq-detail-top-title {
-    display: inline-block;
+.faq-detail-text {
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.faq-detail-text h3 {
+    text-align: left;
+    font-size: 1.7rem;
+    margin-left: 2rem;
 }

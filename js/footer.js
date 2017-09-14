@@ -1,4 +1,6 @@
 function changeFooterActive(e, target) {
+    $('#faq-detail-page-header').hide();
+    $('#original-header').show();
     e.preventDefault();
     $('.footer-nav-ul li').removeClass('custom-nav-active');
     $(target).closest('li').addClass('custom-nav-active');
