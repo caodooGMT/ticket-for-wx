@@ -35,3 +35,8 @@ function backToFaqMain() {
     $('#main-content').empty();
     $('#main-content').load('../components/faq-page-index.html');
 }
+
+function openNoLogOrderCheck() {
+    $('#main-content').empty();
+    $('#main-content').load('../components/order-search-without-log-in.html')
+}
