@@ -8,6 +8,9 @@ $(document).ready(function () {
     $.get('../components/header.html', function (data) {
         $('#header').html(data);
     });
+    $.get('../components/driver-information-table.html', function (data) {
+        $('#driver-information-table').html(data);
+    });
 });
 
 function backToPrevious() {
@@ -18,8 +21,8 @@ function backToPrevious() {
 function openFaqDetail(e) {
     var targetId = e.target.id;
     var targetText = e.target.innerHTML;
-    console.log(targetText);
-    var myLink = "../statics/" + targetId + ".html";
+    // console.log(targetText);
+    var myLink = "../statics/views/" + targetId + ".html";
     $('#faq-detail-page-header-title').html(targetText);
     $('#faq-detail-page-header').show();
     $('#original-header').hide();
