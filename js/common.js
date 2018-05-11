@@ -43,3 +43,7 @@ function openNoLogOrderCheck() {
     $('#main-content').empty();
     $('#main-content').load('../components/order-search-without-log-in.html')
 }
+
+function showDriverInformation() {
+    
+}
